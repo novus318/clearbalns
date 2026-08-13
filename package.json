@@ -13,8 +13,8 @@
   },
   "scripts": {
     "postinstall": "cd banking && yarn install",
-    "dev": "cd banking && yarn dev",
-    "build": "cd banking && yarn build"
+    "dev": "node init && cd banking && yarn dev",
+    "build": "node init && cd banking && yarn build"
   },
   "devDependencies": {},
   "dependencies": {
